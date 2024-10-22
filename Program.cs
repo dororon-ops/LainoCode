@@ -1,0 +1,1 @@
+internal class Program{private static void Числа(ulong ЯкийсьТіп){var сімби = new List<ushort>();while ((ЯкийсьТіп / 10.0f) != 0){сімби.Add((ushort) (ЯкийсьТіп % 10));ЯкийсьТіп /= 10;}сімби.Reverse();foreach (var сімба in сімби){Console.Write(сімба + " ");}}private static void Main(){Console.Write("Ну вводь, чо вилупився >> ");Числа(ulong.Parse(Console.ReadLine()));}}
